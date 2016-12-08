@@ -2,7 +2,7 @@
 $pageTitle = 'Списък разходи';
 include './includes/header.php';
 $selectedGroup = -1;
-var_dump($_GET['group']);
+//var_dump($_GET['group']);
 
 if (isset($_GET['dategroup']) && !empty($_GET['dategroup'])) {
     $selectedDategroup = $_GET['dategroup'];
