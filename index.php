@@ -53,9 +53,10 @@ foreach ($groups as $key => $value) {
 	</tr>
 
 	<?php
+	$sum    = 0;
 if (file_exists('./date.txt')) {
     $result = file('./date.txt');
-    $sum    = 0;
+    
     foreach ($result as $k => $value) {
 
         $columns = explode('!', ($value));
